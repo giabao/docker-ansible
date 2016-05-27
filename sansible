@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# usage: sansible /opt/giabao/wd/sandinh-ansible
+docker run --rm -it \
+    -v $1/roles:/etc/ansible/roles \
+    -v $1/playbook:/playbook \
+    -v $HOME/.ssh:/home/sandinh/.ssh \
+    sandinh/ansible
