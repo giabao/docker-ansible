@@ -13,7 +13,7 @@ docker run --rm -it \
 ```
 Or, you can use the [sansible](sansible) script:
 ```
-sudo wget -o /usr/bin/sansible https://raw.githubusercontent.com/giabao/docker-ansible/master/sansible
+sudo wget -O /usr/bin/sansible https://raw.githubusercontent.com/giabao/docker-ansible/master/sansible
 sudo chmod a+x /usr/bin/sansible
 sansible /opt/giabao/wd/sandinh-ansible
 ```
